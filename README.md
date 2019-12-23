@@ -1,4 +1,4 @@
-PROJECT TITLE: CRUD (Create | Read | Update | Delete) PHP/MYSQL
+PROJECT TITLE: CRUD (Create | Read | Update | Delete) PHP/MYSQL<br>
 LANGUAGE USED : HTML,CSS,PHP(Server-Side),MYSQL(Database)
 in these app you can save you information in database and you can also delete/edit your data.
 * all the stored information showed on samepage.
