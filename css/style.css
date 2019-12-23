@@ -1,0 +1,196 @@
+body{
+padding:0;
+	margin:0;
+	background-image: linear-gradient(45deg, #cc8a94 30.43%, #f5ced5 30.43%, #f5ced5 50%, #cc8a94 50%, #cc8a94 80.43%, #f5ced5 80.43%, #f5ced5 100%);
+background-size: 32.53px 32.53px;
+	background-attachment: fixed;
+}
+a{
+text-decoration: none;
+	text-decoration-color: none;
+	color:black;
+}
+.main-frame{
+width:100%;
+	display: flex;
+	justify-content: center;
+}
+.form{
+	background-color: white;
+text-align: right;		
+display: inline-block;
+padding:15px;
+	margin-top:10px;
+	box-shadow:0px 0px 5px 1px #566573;
+	border-radius:5px;
+}
+
+.input{
+padding:10px;
+	font-size:20px;
+	border:1px solid gray;
+	border-radius:50px;
+	outline:none;
+}
+
+.input-align{
+	
+display: grid;
+grid-template-columns: 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.email{
+	grid-column: span 2;
+}
+
+.sub-btn{
+	cursor:pointer;
+background-color: darkorange;
+	color:#A93226;
+	border:0px;
+	margin-top:10px;
+	box-shadow:0px 2px 0px 2px #B7950B;
+}
+
+.sub-btn:active{
+box-shadow:0px 0px 0px 0px #B7950B;	
+transform: translateY(3px);
+}
+
+.error{
+display:block;
+	width: 100%;
+	text-align: center;
+	padding:7px 0px;
+	font-family:calibri;
+	color:red;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.success{
+display:block;
+	width: 100%;
+	text-align: center;
+	padding:7px 0px;
+	font-family:calibri;
+	color:forestgreen;
+	font-size: 18px;
+	margin-bottom: 10px;	
+	
+}
+
+.saved-data{
+	margin-top:15px;
+	text-align: left;
+	font-family: calibri;
+	
+}
+
+.f_name{
+color:black;	
+	font-size:22px;
+}
+
+.f_email{
+color:gray;	
+	font-size:16px;
+}
+
+.info-box{
+border-bottom: 1px solid #E5E7E9;
+	padding:5px 2px;
+}
+
+.app-title{
+	text-align: center;
+	font-size:30px;
+	font-family: calibri;
+	color:black;
+	padding: 0px;
+	margin:0px;
+}
+.tagline{
+	font-family: calibri;
+color:gray;	
+	font-size:16px;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+
+.fix{
+	
+text-align:center;
+	padding-bottom:10px;
+}
+.credit{
+  font-family:calibri;
+  position:fixed;
+  z-index:+9999;
+  bottom:0px;
+  right:0px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  opacity:0.9;
+
+}
+.credit .name-section{
+  font-family: 15px;
+  text-align: right;
+
+}
+
+.credit .social-icons{
+  font-size: 25px;
+  text-align: right;
+  margin:1px;
+}
+
+.credit i{
+  cursor: pointer;
+  margin:5px;
+}
+
+.git:hover{
+  color:#34495E;
+}
+
+.insta:hover{
+color:#C90CEE;
+}
+
+.in:hover{
+color:#0CA4EE;
+}
+
+@media only screen and (max-width:550px){
+	.main-frame{
+	display: block;	
+		width:100%;
+	}
+	
+	.form{
+		position: relative;
+	border-radius:0px;
+		width:100vw;
+		margin-top:0px;
+		padding:0px;
+	}
+	
+	.input-align{
+	
+display: grid;
+grid-template-columns: 1fr;
+	grid-gap: 10px;
+}
+
+.email{
+	grid-column:1;
+}
+	
+	.mobile-fix{
+	padding:5px;	
+	}
+}
